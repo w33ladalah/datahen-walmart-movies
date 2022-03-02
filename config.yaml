@@ -1,3 +1,7 @@
 seeder:
   file: ./seeders/seeder.rb
   disabled: false
+
+parsers:
+  - file: ./parsers/listings.rb
+    disabled: true
