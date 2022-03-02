@@ -1,5 +1,7 @@
 nokogiri = Nokogiri.HTML(content)
-products = nokogiri.css('div.mid-gray')
+products = nokogiri.css('html')
+
+p products
 
 products.each do |product|
   href = product.at_css('a')['href']
