@@ -15,7 +15,7 @@ original_price = original_price_div ? original_price_div.text.strip.gsub('$','')
 product['original_price'] = original_price == 0.0 ? nil : original_price
 
 #extract rating
-rating = nokogiri.at_css('span.rating-number').text.strip..gsub(/[)(]/, '').to_f
+rating = nokogiri.at_css('span.rating-number').text.strip.gsub(/[)(]/, '').to_f
 product['rating'] = rating == 0 ? nil : rating
 
 #extract number of reviews
