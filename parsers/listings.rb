@@ -7,7 +7,7 @@ products.each do |product|
   pages << {
 		url: url,
 		page_type: 'products',
-		fetch_type: 'browser',,
+		fetch_type: 'browser',
 		headers: {
 			"User-Agent" => "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
 			"sec-ch-ua" => '" Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"',
