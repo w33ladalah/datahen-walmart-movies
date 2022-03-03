@@ -15,8 +15,8 @@ products.each do |product|
 			"sec-ch-ua-platform" => "Linux"
 		},
 		display: {
-			"width": 1366,
-			"height": 760
+			"width": 1360,
+			"height": 761
 		},
 		vars: {}
     }

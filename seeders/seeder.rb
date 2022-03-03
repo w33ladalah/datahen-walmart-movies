@@ -10,7 +10,7 @@ pages << {
   url: "https://www.walmart.com/browse/movies-tv-shows/tv-shows-blu-ray/4096_6003122_8068379",
   fetch_type: "browser",
   display: {
-    "width": 1366,
+    "width": 1080,
     "height": 760
   }
 }
