@@ -1,3 +1,5 @@
+display_width = rand 800..1920
+display_height = rand 728..1280
 pages << {
   page_type: "listings",
   method: "GET",
@@ -10,7 +12,7 @@ pages << {
   url: "https://www.walmart.com/browse/movies-tv-shows/tv-shows-blu-ray/4096_6003122_8068379",
   fetch_type: "browser",
   display: {
-    "width": 1080,
-    "height": 760
+    "width": display_width,
+    "height": display_height
   }
 }
