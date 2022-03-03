@@ -3,7 +3,6 @@ products = nokogiri.css('div.mid-gray')
 
 products.each do |product|
   href = product.at_css('a')['href']
-  p href
   url = URI.join('https://www.walmart.com', href).to_s
   pages << {
       url: url,
