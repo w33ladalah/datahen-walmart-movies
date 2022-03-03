@@ -20,6 +20,7 @@ products.each do |product|
 			"width": display_width,
 			"height": display_height
 		},
+		no_default_headers: true,
 		vars: {}
     }
 end
